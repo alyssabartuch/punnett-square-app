@@ -1,4 +1,5 @@
 # PunnettSquareApp
+The purpose of this app it to calculate genetic crosses between two parents with various numbers of genetic traits (genotypes). These exercises are common in biology and STEM studies that pertain to genetics and general trait inheritance.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 
