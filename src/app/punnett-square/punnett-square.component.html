@@ -1,0 +1,36 @@
+<form #genotypesForm="ngForm" (ngSubmit)="submitGenotypes(genotypesForm.form);">
+  <div class="container">
+    <div class="row">
+      <div class="col" id=""></div>
+      <div class="col" id="label">{{genotype1a}}</div>
+      <div class="col" id="label">{{genotype1b}}</div>
+    </div>
+    <div class="row">
+      <div class="col" id="label">{{genotype2a}}</div>
+      <div class="col" id="tl">{{cross1}}</div>
+      <div class="col" id="tr">{{cross2}}</div>
+    </div>
+    <div class="row">
+      <div class="col" id="label">{{genotype2b}}</div>
+      <div class="col" id="bl">{{cross3}}</div>
+      <div class="col" id="br">{{cross4}}</div>
+    </div>
+  </div>
+    
+  Genotype 1: <input type="text" 
+       class="form-control" 
+       name="genotype-1"
+       ngModel
+       #nameField="ngModel">
+       
+  Genotype 2: <input type="text" 
+       class="form-control" 
+       name="genotype-2"
+       ngModel
+       #nameField="ngModel">
+
+
+
+
+  <button class="btn btn-primary">Submit</button>
+</form>

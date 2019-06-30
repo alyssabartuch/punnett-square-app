@@ -1,0 +1,29 @@
+#tl {
+ background-color: coral;
+ height: 200px;
+ max-width: 200px;
+}
+
+#tr {
+    background-color: plum;
+    height: 200px;
+    max-width: 200px;
+}
+
+#bl {
+    background-color: turquoise;
+    height: 200px;
+    max-width: 200px;
+}
+
+#br {
+    background-color: greenyellow;
+    height: 200px;
+    max-width: 200px;
+}
+
+#label {
+}
+
+.punnett {
+}
